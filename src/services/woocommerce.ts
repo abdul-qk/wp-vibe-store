@@ -1,4 +1,4 @@
-const DEFAULT_BASE_URL = "https://shop.lankapack.com"
+const DEFAULT_BASE_URL = "https://wordpress.com"
 const API_PATH = "/wp-json/wc/v3"
 
 const BASE_URL = (import.meta.env.VITE_WOOCOMMERCE_BASE_URL as string | undefined) ?? DEFAULT_BASE_URL
